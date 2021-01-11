@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citibank</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="top-bar">
+    <div class="container">
+        <p>United kingdom</p>
+    </div>
+</section>
+<section class="banner-section">
+    <div class="blue-bar">
+        <div class="blue-bar-small"></div>
+        <div class="blue-bar-big"></div>
+    </div>
+    
+    <div class="slider">
+        <div class="slider-parent">
+            <div class="slider-count fade slider-1"></div>
+            <div class="slider-count fade slider-2"></div>
+            <div class="slider-count fade slider-3"></div>
+        </div>        
+        <div class="slider-content">
+            <div class="slider-content-middle">
+                <img src="big_card.png">
+                <h1>Enjoy FREE 24/7 Emergency Roadside Service</h1>
+                <p>For Shell Citi Platinum Cardholders only and can be used once every year.</p>
+                <div class="banner-cta"><a href="javascript:;">Apply Now</a></div>
+            </div>
+        </div>
+        <div class="carousel-dot">
+            <div class="dots active" onclick="currentSlide(1)"></div>
+            <div class="dots" onclick="currentSlide(2)"></div>
+            <div class="dots" onclick="currentSlide(3)"></div>
+        </div>
+    </div>
+</section>
+<section class="card-section">
+    <div class="container">
+        <div class="card-heading">
+            Here how to qualify
+        </div>
+        <div class="card-split">
+            <div class="card-split-col">
+                <h2>Getting the P300 Approval Rebate</h2>
+                <p>(For new Citi credit cardholders only)</p>
+                <p class = "change">Apply for a Shell Citi Card here and earn your approval rebate on your first P3000 Shell Fuel purchase.</p>
+            </div>
+            <div class="card-split-col">
+                <div class="card">
+                    <img src="platinum_card.png" class="platinum_card">
+                    <img src=" gold_card.png" class="gold_card">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="offer">
+    
+    <div class="offer-col"id = "off01">
+        <div class="count">01</div>
+        <div class="offer-content" id = "con1">
+            Getting the P300 Approval Rebate
+        </div>
+    </div>
+
+    <div class="offer-col"id = "off02">
+        <div class="count">02</div>
+        <div class="offer-content">
+            Save up to P2.50/L on Shell fuel
+        </div>
+    </div>
+
+    <div class="offer-col" id = "off03">
+        <div class="count">03</div>
+        <div class="offer-content">
+            Getting the P5,000 Welcome Rebate
+        </div>
+    </div>
+   
+</section>
+<script src="script.js"></script>
+</body>
+</html>

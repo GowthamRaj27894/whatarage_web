@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citibank</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="top-bar">
+    <div class="container">
+        <p>United kingdom</p>
+    </div>
+</section>
+<section class="banner-section">
+    <div class="blue-bar">
+        <div class="blue-bar-small"></div>
+        <div class="blue-bar-big"></div>
+    </div>
+    
+    <div class="slider">
+        <div class="slider-parent">
+            <div class="slider-count fade slider-1"></div>
+            <div class="slider-count fade slider-2"></div>
+            <div class="slider-count fade slider-3"></div>
+        </div>        
+        <div class="slider-content">
+            <div class="slider-content-middle">
+                <img src="images/big_card.png">
+                <h1>Enjoy FREE 24/7 Emergency Roadside Service</h1>
+                <p>For Shell Citi Platinum Cardholders only and can be used once every year.</p>
+                <div class="banner-cta"><a href="javascript:;">Apply Now</a></div>
+            </div>
+        </div>
+        <div class="carousel-dot">
+            <div class="dots active"></div>
+            <div class="dots"></div>
+            <div class="dots"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ***************************************Section 2*************************************************** -->
+<section class = "banner-section">
+    <div class = "slider-2">
+            <div class = "sec-two-container">
+                <div class = "row1">
+                    <p>Here's is how to qualify</p>
+                    <hr>
+                </div>
+                <div class = "row2">
+                    <div class = "content-set-1">
+                        <h3>Getting the P300 Approvel Rebate</h3>
+                        <p>(For new city credit card holders only)</p>
+                        <p>Apply shell Citi Card here and earn your approvel rebate on your first P300 Shell fuel purchase<p>
+                     </div>
+                     <div  class = "content-set-2">
+                             <img src="images\gold_card.png" alt="">
+                             <img src="images\platinum_card.png" alt="">
+                     </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</section>
+<!-- ***************************************Section 3*************************************************** -->
+<section class = "banner-section">
+   <div class="section-3">
+     <div class="sec3-slider-1">
+         <div class = "sec3-slider-content">
+            <h1>01</h1>
+            <p> Getting P300 approvel rebate</p>
+         </div>
+     </div>
+     <div class="sec3-slider-2">
+        <div class = "sec3-slider-content">
+            <h1>02</h1>
+            <p>Save up to P2.50/l on Shell fuel</p>
+         </div>
+    </div>
+    <div class="sec3-slider-3">
+        <div class = "sec3-slider-content">
+            <h1>03</h1>
+            <p>Getting the P5000 Welcome Rebate</p>
+         </div>
+    </div>
+   </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
